@@ -72,7 +72,7 @@ Dataset is a dictionary from python library.
    - "sequence" - Full amino acid sequence of protein. Data type: list, Shape MN
    - "xyz" - 3D position of each captured amino acid. Data type: Numpy array, Shape Nx3
    - "amino" - Amino acid name of each captured amino acid. Data type: list, Shape N
-   - "id" - Number of position of each captured amino acid. Data type: list, Shape N
+   - "id" - Id of position of each captured amino acid. Data type: list, Shape N
    - "mask" - (Optional) For each position this shows, whether position is real or a dummy. Present only in padded version. Data type: list, Shape N  
    - additional - Additional parameters of proteins. Name is the same as in mmCIF file in PDB.
    
@@ -82,7 +82,6 @@ Dataset is a dictionary from python library.
    - id - [0,1,4,5]
    - amino - ['MET','ALA','LEU','GLN']
    
-   Id tells exactly position of each amino in full sequence.
    Example of padded version:
    - sequence - ['MET','ALA','LEU','ASN','LEU','GLN']
    - id - [0,1,2,3,4,5]
