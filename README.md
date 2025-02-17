@@ -59,3 +59,18 @@ def load_pickle(full_path):
         return data_block
 ```
 ## Dataset structure
+Dataset is a dictionary from python library.
+1. First level is a dictionary. It contains cluster id as keys. They are a numbers. Example: 0,1,2,3,4,5,6
+2. Second level is a dictionary. It contains protein_names as keys. They are strings. Example: "3j7z_6_F_1_DE", "3j9y_56_DB_1_DE", "3jcj_36_JA_1_DE", "4v7b_57_EB_1_DE", "4v7c_34_IA_1_DE".
+   "3j7z_6_F_1_DE" - each part has a meaning:
+   - 3j7z - identifier from Protein Data Bank
+   - 6 - entity id ("_atom_site.label_entity_id")
+   - F - chain id ("_atom_site.label_asym_id")
+   - 1 - global conformation id ("_atom_site.pdbx_PDB_model_num")
+   - DE - local conformation id ("_atom_site.label_alt_id")
+3. Third level is a dictionary. It contains specific protein info:
+   - "sequence" - Full amino acid sequence of 
+   - "xyz" -
+   - "amino" -
+   - "id" -
+   - additional -
