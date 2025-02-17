@@ -77,12 +77,12 @@ Dataset is a dictionary from python library.
    - additional - Additional parameters of proteins. Name is the same as in mmCIF file in PDB.
    In case of Raw version MN >= N. For padded version MN = N.
    Example of raw version:
-   sequence - ['MET','ALA','LEU','ASN','LEU','GLN']
-   id - [0,1,4,5]
-   amino - ['MET','ALA','LEU','GLN']
+   - sequence - ['MET','ALA','LEU','ASN','LEU','GLN']
+   - id - [0,1,4,5]
+   - amino - ['MET','ALA','LEU','GLN']
    Id tells exactly position of each amino in full sequence.
    Example of padded version:
-   sequence - ['MET','ALA','LEU','ASN','LEU','GLN']
-   id - [0,1,2,3,4,5]
-   amino - ['MET','ALA','LEU','ASN','LEU','GLN']
-   mask - [True,True,False,False,True,True]
+   - sequence - ['MET','ALA','LEU','ASN','LEU','GLN']
+   - id - [0,1,2,3,4,5]
+   - amino - ['MET','ALA','LEU','ASN','LEU','GLN']
+   - mask - [True,True,False,False,True,True]
