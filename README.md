@@ -88,3 +88,5 @@ Dataset is a dictionary from python library.
    - amino - ['MET','ALA','LEU','ASN','LEU','GLN']
    - mask - [True,True,False,False,True,True]
    
+## Advice
+Protein structure were aligned to one protein structure chosen per cluster. It is still advised to align 2 protein structures, if they are used as a pair. This alignment should give better results.
