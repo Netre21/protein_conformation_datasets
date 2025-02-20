@@ -27,17 +27,19 @@ There are few options:
    - Similarity - Each cluster was assigned to data block based on Jaccard similarity. Jaccard Similarity between amino acid sequences between 2 clusters. If the similarity score is above 0.4, then they are placed in different data blocks, otherwise they are placed in the same one.
 
 ## Available dataset versions
-There are 10 versions available:
-- Raw Protein Conformation
-- Padded Protein Conformation 
-- Raw Protein Conformation Random Max Protein Length 300
-- Raw Protein Conformation Random Max Protein Length 200
-- Padded Protein Conformation Random Max Protein Length 300
-- Padded Protein Conformation Random Max Protein Length 200
-- Raw Protein Conformation Similarity Max Protein Length 300
-- Raw Protein Conformation Similarity Max Protein Length 200
-- Padded Protein Conformation Similarity Max Protein Length 300
-- Padded Protein Conformation Similarity Max Protein Length 200
+There are 10 versions available for download. To download each one, please use following link https://ml.informatik.uni-freiburg.de/research-artifacts/ProConf/<datasetname>.tar.gz, where datasetname is replace with one of the following (in the brackets):
+- Raw Protein Conformation (PDB_conformations_full_version_plain_merged)
+- Padded Protein Conformation (PDB_conformations_full_version_padded_merged) 
+- Raw Protein Conformation Random Max Protein Length 300 (PDB_conformations_max_length_300_random_version_plain_merged)
+- Raw Protein Conformation Random Max Protein Length 200 (PDB_conformations_max_length_200_random_version_plain_merged)
+- Padded Protein Conformation Random Max Protein Length 300 (PDB_conformations_max_length_300_random_version_padded_merged)
+- Padded Protein Conformation Random Max Protein Length 200 (PDB_conformations_max_length_200_random_version_padded_merged)
+- Raw Protein Conformation Similarity Max Protein Length 300 (PDB_conformations_max_length_300_similarity_version_plain_merged)
+- Raw Protein Conformation Similarity Max Protein Length 200 (PDB_conformations_max_length_200_similarity_version_plain_merged)
+- Padded Protein Conformation Similarity Max Protein Length 300 (PDB_conformations_max_length_300_similarity_version_padded_merged)
+- Padded Protein Conformation Similarity Max Protein Length 200 (PDB_conformations_max_length_200_similarity_version_padded_merged)
+
+There is an option to download all datasets at once called ProConf (ProConf).
 
 # How to use it?
 ## How was it saved?
